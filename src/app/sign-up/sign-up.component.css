@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #4B3F6B; /* Adjust to match the exact color in the design */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.form-container {
+    width: 40%; /* Adjust as necessary */
+    text-align: center;
+    margin-left: 510px;
+    margin-top: 120px;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"] {
+    width: 80%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.sign-in-button {
+    width: 80%;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #EB3B5A; /* Adjust to match the button color */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.forgot-password,
+.sign-in {
+    color: white;
+    margin: 10px 0;
+}
+
+.social-media-icons span {
+    font-size: 2em; /* Adjust as necessary */
+    margin: 0 5px;
+}
+
+.illustration {
+    /* The background image would be added here */
+    width: 50%; /* Adjust as necessary */
+    height: 100%;
+    background-size: contain;
+}
+
+/* Add responsiveness and additional styling as needed */

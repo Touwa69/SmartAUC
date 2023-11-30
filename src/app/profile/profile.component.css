@@ -1,0 +1,77 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #4B3F6B; /* Adjust to match the design color */
+}
+
+.profile-container {
+    text-align: center;
+    color: white;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.back-button,
+.menu-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.profile-picture {
+    background: white; /* Replace with actual image */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+.item-summary {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.item-summary span:first-child {
+    font-size: 2em;
+    margin-right: 5px;
+}
+
+.create-auction-button {
+    background-color: #EB3B5A; /* Adjust to match the design */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.profile-items-placeholder {
+    background-color: #665C7F; /* Lighter purple for placeholder */
+    width: 80%;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.profile-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Add styles for your footer icons here */
+}
+
+/* Additional styles for responsiveness and aesthetic adjustments */

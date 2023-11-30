@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3F3D56; /* Adjust color to match the design */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.back-button {
+    position: absolute;
+    left: 20px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.note {
+    margin: 10px;
+    font-size: 0.8em;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Adjust based on your layout */
+    grid-gap: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px; /* Adjust based on your layout */
+}
+
+/* Add more styles for responsiveness and the footer */
+.product-card {
+    position: relative; /* This makes it a positioning context for absolute children */
+    background-color: #4E4C67; /* Adjust color to match the design */
+    height: 150px; /* Adjust based on your layout */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Rest of your styles */
+}
+
+.fa-heart {
+    color: pink; /* Adjust to the exact color */
+    font-size: 1.5em;
+}
+
+
+
+.favorite-icon {
+    position: absolute;
+    bottom: 10px; /* Distance from bottom */
+    right: 10px; /* Distance from right */
+    color: pink; /* Adjust to the exact color you need */
+    font-size: 1.5em; /* Size of the heart icon */
+}
+

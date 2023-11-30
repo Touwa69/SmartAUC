@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #3F3D56; /* Adjust color to match the design */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.upload-section {
+    margin: 20px;
+    text-align: center;
+}
+
+.upload-button {
+    background-color: #4E4C67; /* Adjust color to match the design */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px; /* Optional */
+}
+
+.auction-form {
+    margin: 100px;
+}
+
+.auction-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+}
+
+.create-auction-button {
+    background-color: #EB3B5A; /* Adjust to match the design */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+/* Add more styles here to match the design exactly */

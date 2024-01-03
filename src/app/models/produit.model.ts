@@ -9,5 +9,5 @@ export class Produit
     image?:Object;
     dateLimite?:String;
     etat?:boolean;
-    intervalle_Tollerance?:[min?:number,max?:number]
+    intervalle_Tollerance?:[min?:number,max?:number];
 }
